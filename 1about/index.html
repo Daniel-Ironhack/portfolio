@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+   <nav>
+   <ul>
+     <li class="home"><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact</a></li>
+   </ul>
+  </nav>
+        <div>
+         
+            <h1>contact</h1>
+            <h4>Do you want to keep in touch? Just want to say hi? Let's talk.</h4>
+                <form>
+                    <p class="gender"> Please, fill the form below</p>
+                    <label for="firstname">first name*</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    <label for="lastname">last name</label>
+                    <input type="text" id="lastname">
+                    <p> choose your gender: </p>
+                    <label>
+                       <input type="radio" name="gender" value="male" checked> male
+                    </label>
+                    <label>
+                       <input type="radio" name="gender" value="female">female
+                    </label>  
+                    <label> 
+                        <input type="radio" name="gender" value="prefer not to say">prefer not to say
+                    </label>      
+                    <label for="email">e-mail*</label>
+                    <input type="email" id="email" required>
+                    <label for="comment">leave a comment*</label>   
+                    <textarea id="comments" name="comments"></textarea required> 
+                    <label for="checkbox"><input type="checkbox" value="subscribe" name="subscribe" id="subscribe">Add me to your mailing list</label> 
+                    <button type="submit">SUBMIT</button>
+        </div>
+             
+        <footer>
+            <p> This page was built using: HTML, CSS and JavaScript. </p>
+            <ul>
+              <li><a href="#"><i class="fas fa-home"></i></li>
+              <li><a href="#"><i class="fas fa-info"></i></li>
+              <li><a href="%"><i class="fas fa-envelope"></i></li>
+              </ul>
+          </footer>
+
+
+<script src="form.js"></script>
+</body>
+</html>
